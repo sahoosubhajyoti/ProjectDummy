@@ -1,0 +1,132 @@
+.form-container {
+    width: 60%;
+    margin: 10px auto;
+    padding: 10px;
+    background: rgb(219, 206, 206);
+    border-radius: 8px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  form h2{
+    margin: 0 auto; /* Horizontally centers the <h2> itself */
+    text-align: center;
+  }
+  label {
+    margin-bottom: 8px;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  
+  input,
+  select {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #9a9595;
+    font-size: 12px; /* Slightly larger font */
+    color: #333;
+  }
+  
+  
+  input:focus,
+  select:focus,
+  textarea:focus {
+    outline: none;
+    border-color: #007bff; /* Highlighted border on focus */
+    box-shadow: 0 0 7px rgba(51, 106, 170, 0.5); /* Subtle focus effect */
+  }
+  
+  button {
+    padding: 8px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    transform: scale(1.02); /* Slight enlarge effect on hover */
+  }
+  img {
+    height: 50px;
+  }
+  .form-field {
+    display: flex;
+    flex-direction: column;
+  }
+  .sign-btn {
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+  .sign-btn2 {
+    padding: 5px 10px;
+    margin-left: 10px;
+  }
+  .sign-in {
+    display: flex;
+    justify-content: space-between; /* Distribute buttons evenly */
+    align-items: center; /* Align buttons vertically */
+    margin-top: 10px; /* Add space above the button block */
+  }
+  /* Style for error input fields */
+input.error {
+    border: 1px solid red;
+    background-color: #ffe6e6; /* Light red background */
+  }
+
+  /* Style for error message text */
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  #btn-for-submit {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cap-class button{
+    padding: 5px; /* Smaller padding for a compact button */
+    margin: 0px;
+    background-color: #62d65a;
+    
+    color: white;
+    font-size: 8px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .cap-class button:hover {
+    background-color: #09cc5d;
+  }
+  .cap-class label {
+    background-color: #d3d3d3; /* Grey background */
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-weight: solid;
+    color: #110606;
+    font-size: 16px;
+    white-space: nowrap; /* Prevent text from wrapping */
+    background-image: url('../images/download.jpeg');
+  }
+  .input-error {
+    border: 2px solid red;
+  }
+  
+  .input-success {
+    border: 2px solid green;
+  }
+  

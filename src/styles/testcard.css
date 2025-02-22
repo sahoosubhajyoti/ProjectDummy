@@ -1,0 +1,37 @@
+.test-box {
+    width: 300px;
+    overflow: hidden;
+    background-image: linear-gradient(to right, rgb(122, 108, 196),rgb(51, 15, 229));
+    box-shadow: 12px 12px 2px 1px rgba(168, 168, 216, 0.2);
+    border-radius: 16px;
+    color: antiquewhite;
+    margin: 0 auto;
+    padding: 2rem;
+    position: relative;
+     
+}
+.test-box h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .test-box p {
+    font-size: 1.1em;
+    margin: 5px 0;
+  }
+  
+  .test-box-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* .test-box-button:hover {
+    background-color: #0056b3;
+  } */
+
+
+

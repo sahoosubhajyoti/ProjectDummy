@@ -1,0 +1,99 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    overflow-x: hidden;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Ensures the container covers the full viewport height */
+    width: 100%;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    position: relative;
+    background: url('../images/ClassroomHubBG\ \(1\).png') no-repeat center center/cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+  }
+  .content-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .overlay {
+    background: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent layer */
+    padding: 40px;
+    border-radius: 8px;
+  }
+  
+  .title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 75px;
+    margin-bottom: 20px;
+    opacity: 0.95;
+    font-weight: bold;
+  }
+  
+  .subtitle {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    text-align: left;
+    line-height: 1.6;
+    opacity: 0.85;
+    
+  }
+  
+  
+  .button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .button {
+    background: white;
+    color: #1e3a8a;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    height: 60px;
+    margin: 0 0 0 auto;
+  }
+  
+  .button:hover {
+    background: #e2e8f0;
+  }
+  
+  .arrow {
+    font-size: 18px;
+  }
+  .footer {
+    background-color: #1c3a6b;
+    text-align: center;
+    padding: 15px;
+    color: #e2e8f0;
+  }

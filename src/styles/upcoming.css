@@ -1,0 +1,17 @@
+.main-page{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(239, 230, 230);
+ 
+}
+.upcoming-t{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.head {
+    height: 80px;
+    border-radius: red;
+}

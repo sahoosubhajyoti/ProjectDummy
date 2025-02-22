@@ -1,0 +1,198 @@
+/* .app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f3f4f6;
+}
+  */
+  /*
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    width: 100%;
+  }
+  .content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+  }
+  */
+  
+/*
+
+.form-container {
+  
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+select {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+button {
+  color: white;
+  background-color: rgb(84, 60, 244);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+} */
+
+/* {currentScreen === "login" && <Login onNavigate={navigateTo} />}
+      {currentScreen === "signup" && <NewUserSignup onNavigate={navigateTo} />}
+      {currentScreen === "forgotPassword" && <ForgotPassword onNavigate={navigateTo} />} */
+/* 
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+      }
+      
+      .navbar {
+        background-color: #007bff;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      
+      .content-container {
+        padding: 20px;
+      }
+      
+      .form-container {
+        width: 400px;
+        margin: 20px auto;
+        padding: 160px;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        
+      }
+      
+      form {
+        display: flex;
+        flex-direction: column;
+      } 
+      
+      label {
+        margin-bottom: 8px;
+        font-weight: bold;
+      }
+      
+      input,
+      select {
+        margin-bottom: 15px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+      }
+      
+      button {
+        color: white;
+        background-color: rgb(84, 60, 244);
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 10px;
+        cursor: pointer;
+        
+      }
+      
+      button:hover {
+        opacity: 0.9;
+      }
+      
+      .navbar {
+  
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+      }
+       img {
+        height: 50px;
+       }
+       .sign-btn {
+        padding: 5px;
+        margin-right: 175px;
+        
+        
+       }
+       .sign-btn2 {
+        
+        padding: 5px;
+       }
+       
+       .form-container .fields {
+        display: flex;
+        justify-content: ;
+       }
+        */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+
+
+/* */
+
+/* Sidebar styles */
+
+
+/* Content styles */
+.content-container {
+  
+  padding: 10px;
+}
+/* 
+.form-container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 14px 16px rgba(0, 0, 0, 0.2);
+} */
+/* Style for error input fields */
+
+
+
+
+

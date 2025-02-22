@@ -1,0 +1,75 @@
+.sidebar {
+  width: 200px; /* Increase width to show more content */
+  background-color: white;
+  color: gray;
+  height: 100vh;
+  position: fixed;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Optional for shadow */
+   overflow-y: auto; 
+  transition: width 0.3s ease; /* Smooth transition for expanding/collapsing */
+  font-size: 12px;
+  text-align: center;
+  padding: 15px;
+  background-color: white;
+}
+
+
+
+.sidebar .menu {
+  margin-top: 0px;
+}
+
+.sidebar .menu a {
+  display: block;
+  padding: 15px;
+  color: black;
+  text-decoration: none;
+  text-align: left;
+}
+
+.sidebar .menu a:hover {
+  background-color: #9dcfc5;
+}
+
+/* Menu Button for expanding submenus */
+.menu-item button {
+  display: block;
+  width: 90%;
+  padding: 15px;
+  background: none;
+  border: none;
+  color: black;
+  text-align: left;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* .menu-item:hover {
+  background-color: #2745df;
+} */
+
+/* Submenu styling */
+.submenu {
+  margin-left: 12px; /* Indent submenus */
+  display: none; /* Hide by default */
+  flex-direction: column;
+}
+
+.submenu a {
+  color: #555;
+  padding: 10px 15px;
+}
+
+.submenu a:hover {
+  background-color: #2745df;
+}
+
+.submenu.show {
+  display: flex; /* Show the submenu when it has the 'show' class */
+}
+
+/* For active submenu */
+.submenu a.active {
+  background-color: #BCCCDC;
+  border-radius: 10px;
+}

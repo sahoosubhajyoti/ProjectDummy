@@ -1,0 +1,72 @@
+.test-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Sidebar Styles */
+  .sidebar {
+    width: 250px;
+    background: #f4f4f4;
+    padding: 20px;
+    border-right: 2px solid #ccc;
+  }
+  
+  .timer {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .question-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .question-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Question Status Colors */
+  .green {
+    background-color: lightgreen;
+  }
+  
+  .red {
+    background-color: lightcoral;
+  }
+  
+  .blue {
+    background-color: lightblue;
+  }
+  
+  /* Main Section */
+  .main-section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .navigation-buttons {
+    margin-top: 20px;
+  }
+  
+  .navigation-buttons button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  

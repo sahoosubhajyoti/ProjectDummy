@@ -1,0 +1,44 @@
+.appear-test-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .main-section {
+    width: 70%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .sidebar {
+    width: 25%;
+    padding: 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .timer {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .start-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .start-btn:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+  }
+  

@@ -1,0 +1,22 @@
+/* Container for portal-admin page */
+.portal-admin-container {
+    display: flex; /* Create a horizontal layout */
+    height: 100vh; /* Full viewport height */
+  }
+  
+  /* Sidebar styling */
+  .sidebar {
+    width: 200px; /* Fixed width for the sidebar */
+    background-color: #f4f4f4; /* Light gray background */
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+  }
+  
+  /* Content container styling */
+  .content-container {
+    flex-grow: 1; /* Take remaining space */
+    padding: 20px;
+    background-color: #fff; /* White background */
+    overflow-y: auto; /* Allow scrolling if content overflows */
+  }
+  

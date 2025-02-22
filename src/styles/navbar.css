@@ -1,0 +1,67 @@
+.navbar {
+    background-color: #e5e1da;
+    padding: 4px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    position: sticky; /* Keeps navbar at the top on scroll */
+    top: 0;
+    z-index: 10; /* Ensures navbar is above other content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .nav-links a {
+    color: #89A8B2;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 70px;
+    justify-content: start;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .nav-links a:hover {
+    /* text-decoration: underline; */
+    border-bottom: 2px solid #89A8B2; /* Underline on hover */
+  }
+  .navbar-logo {
+    height: 40px; /* Set the height for consistent sizing */
+    width: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners */
+    border: 2px solid #3c3935; /* Add a border with highlight color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a soft shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition effects */
+  }
+  .back-button {
+    width: 70px;
+    margin-left: auto; /* Pushes the back button to the far right */
+    margin-bottom: 4px;
+    padding: 10px 20px;
+    background-color: #5a9be1;
+    border-bottom: 2px solid ; /* Underline on hover */
+    background-color: #5a9be1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+  
+@media (max-width: 768px) {
+    .navbar {
+      flex-direction: column; /* Stack logo and links vertically */
+      align-items: flex-start;
+      padding: 10px 12px; /* Slightly increase padding */
+    }
+  
+    .nav-links {
+      gap: 14px; /* Reduce space between links */
+    }
+  
+    .navbar-logo {
+      height: 40px; /* Reduce logo size for smaller screens */
+    }
+  }

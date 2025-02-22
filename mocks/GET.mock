@@ -1,0 +1,16 @@
+{
+  "httpRequest": {
+    "method": "GET",
+    "path": "/api/test/123/questions"
+  },
+  "httpResponse": {
+    "statusCode": "200", 
+    "headers": [
+      { "name": "Content-Type", "value": "application/json" }
+    ],
+    "body": [
+      { "id": 1, "text": "What is React?" },
+      { "id": 2, "text": "Explain useState hook." }
+    ]
+  }
+}
